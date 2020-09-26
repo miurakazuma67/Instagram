@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vva-pC-OMT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vva-pC-OMT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,17 +19,17 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ef3-rF-aDt">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gL9-3H-Zgb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gL9-3H-Zgb" firstAttribute="trailing" secondItem="ef3-rF-aDt" secondAttribute="trailing" id="1AY-jH-XmT"/>
                             <constraint firstItem="gL9-3H-Zgb" firstAttribute="bottom" secondItem="ef3-rF-aDt" secondAttribute="bottom" id="PcS-pq-J2V"/>
                             <constraint firstItem="ef3-rF-aDt" firstAttribute="leading" secondItem="gL9-3H-Zgb" secondAttribute="leading" id="uMr-xF-IZg"/>
                             <constraint firstItem="ef3-rF-aDt" firstAttribute="top" secondItem="gL9-3H-Zgb" secondAttribute="top" id="vFj-79-gDG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="gL9-3H-Zgb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="home" id="Nve-Ew-XMx"/>
                     <connections>
@@ -79,7 +81,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UKt-PY-Spx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="mJ3-rg-Mc1" firstAttribute="top" secondItem="UKt-PY-Spx" secondAttribute="top" constant="80" id="5kc-9b-xFg"/>
                             <constraint firstItem="ls4-IH-bmy" firstAttribute="top" secondItem="cUG-dR-1Hb" secondAttribute="bottom" constant="10" id="EwN-Ha-Zlh"/>
@@ -88,7 +91,6 @@
                             <constraint firstItem="cUG-dR-1Hb" firstAttribute="centerX" secondItem="vMj-Il-I5L" secondAttribute="centerX" id="aCq-B5-tPO"/>
                             <constraint firstItem="mJ3-rg-Mc1" firstAttribute="centerX" secondItem="vMj-Il-I5L" secondAttribute="centerX" id="mdo-om-z42"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="UKt-PY-Spx"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="投稿" image="camera" id="uqx-b8-rbK"/>
                 </viewController>
@@ -138,7 +140,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hZX-RZ-v7l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hZX-RZ-v7l" firstAttribute="trailing" secondItem="wgy-bk-8bo" secondAttribute="trailing" constant="10" id="1hQ-Co-HSY"/>
                             <constraint firstItem="l4P-VO-8NW" firstAttribute="centerX" secondItem="2Mh-3l-zYO" secondAttribute="centerX" id="31P-wA-uma"/>
@@ -150,7 +153,6 @@
                             <constraint firstItem="TW2-56-6xn" firstAttribute="top" secondItem="PjT-ii-Kua" secondAttribute="bottom" constant="20" id="oci-7u-L00"/>
                             <constraint firstItem="wgy-bk-8bo" firstAttribute="bottom" secondItem="PjT-ii-Kua" secondAttribute="bottom" id="p5C-KT-bQ4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="hZX-RZ-v7l"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" image="camera" id="3WC-hJ-MUS"/>
                     <connections>
@@ -199,7 +201,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Rh4-Qj-COF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="n7f-b7-MOq" firstAttribute="top" secondItem="V9V-g6-y2s" secondAttribute="bottom" constant="10" id="43l-0q-5OA"/>
                             <constraint firstItem="CAu-m1-W8V" firstAttribute="top" secondItem="Rh4-Qj-COF" secondAttribute="top" constant="80" id="4W0-QX-Bbt"/>
@@ -208,7 +211,6 @@
                             <constraint firstItem="V9V-g6-y2s" firstAttribute="top" secondItem="CAu-m1-W8V" secondAttribute="bottom" constant="10" id="UXR-Ie-xAn"/>
                             <constraint firstItem="n7f-b7-MOq" firstAttribute="centerX" secondItem="fmV-7z-nC3" secondAttribute="centerX" id="wFn-tG-a4v"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Rh4-Qj-COF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="設定" image="setting" id="GwA-cm-xbR"/>
                     <connections>
@@ -272,7 +274,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zaM-zw-nwI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8M0-FB-xoN" firstAttribute="top" secondItem="eDf-HE-Xah" secondAttribute="bottom" constant="10" id="32L-10-Jmh"/>
                             <constraint firstItem="gcv-Mp-spm" firstAttribute="top" secondItem="jKH-E8-7lK" secondAttribute="bottom" constant="10" id="5Tt-ln-cyv"/>
@@ -285,7 +288,6 @@
                             <constraint firstItem="eDf-HE-Xah" firstAttribute="top" secondItem="cO4-pN-dvZ" secondAttribute="bottom" constant="10" id="nkd-Pt-80z"/>
                             <constraint firstItem="cO4-pN-dvZ" firstAttribute="centerX" secondItem="tmN-mE-hie" secondAttribute="centerX" id="vIh-hx-cgV"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="zaM-zw-nwI"/>
                     </view>
                     <connections>
                         <outlet property="displayNameTextField" destination="8M0-FB-xoN" id="VU9-MM-Ntv"/>
@@ -315,7 +317,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUV-fn-KUf">
-                                <rect key="frame" x="330" y="320" width="74" height="40"/>
+                                <rect key="frame" x="330" y="320" width="54" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="N5W-He-btV"/>
+                                    <constraint firstAttribute="width" constant="54" id="XCb-Sc-Luq"/>
+                                </constraints>
                                 <state key="normal" title="送信" backgroundImage="btn">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -324,15 +330,15 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pUS-Xw-m1q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="r9l-cM-CTC" firstAttribute="leading" secondItem="pUS-Xw-m1q" secondAttribute="leading" constant="20" id="5tz-6T-MyI"/>
                             <constraint firstItem="WUV-fn-KUf" firstAttribute="centerY" secondItem="r9l-cM-CTC" secondAttribute="centerY" id="AuS-X2-Loe"/>
                             <constraint firstItem="WUV-fn-KUf" firstAttribute="leading" secondItem="r9l-cM-CTC" secondAttribute="trailing" constant="10" id="YXw-1I-G9g"/>
                             <constraint firstItem="r9l-cM-CTC" firstAttribute="top" secondItem="pUS-Xw-m1q" secondAttribute="top" constant="320" id="d3p-D8-fDt"/>
-                            <constraint firstItem="pUS-Xw-m1q" firstAttribute="trailing" secondItem="WUV-fn-KUf" secondAttribute="trailing" constant="10" id="lhs-5f-cRe"/>
+                            <constraint firstItem="pUS-Xw-m1q" firstAttribute="trailing" secondItem="WUV-fn-KUf" secondAttribute="trailing" constant="30" id="lhs-5f-cRe"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="pUS-Xw-m1q"/>
                     </view>
                     <navigationItem key="navigationItem" id="iVX-lW-0Fl"/>
                     <connections>
@@ -369,5 +375,8 @@
         <image name="camera" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
         <image name="setting" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

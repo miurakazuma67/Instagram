@@ -35,8 +35,7 @@ class CommentViewController: UIViewController {
         let commentString = "\(name!):\(self.commentTextField.text!)"
         let updateComments = FieldValue.arrayUnion([commentString])
         
-        
-        
+                
         postRef.updateData(["comments":updateComments])
         // HUDで投稿完了を表示する
         SVProgressHUD.showSuccess(withStatus: "投稿しました")

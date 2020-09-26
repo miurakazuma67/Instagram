@@ -54,19 +54,17 @@ class PostTableViewCell: UITableViewCell {
         
         // コメントの表示
         var commentString = " "
-        commentString = "UserA: comment1UserB: comment2User3: comment3"
        
         let comments = "\(postData.comments)"
-        for _ in comments {
-            commentString += comments
+        
+        for comment in postData.comments {
+            commentString += comment + "\n"
         }
         
         print(commentString)
         
-        commentLabel.text = commentString
-        
-        
-        self.commentLabel.text = "\(postData.comments)"
+        self.commentLabel.text = commentString
+       
         
         // 日時の表示
         self.dateLabel.text = ""
@@ -92,5 +90,6 @@ class PostTableViewCell: UITableViewCell {
     }
     
 }
+
 
 
